@@ -1,12 +1,17 @@
-*.class
+/bin/
 
-# Mobile Tools for Java (J2ME)
+*.classpath
+*.project
+
+*.class
+*.DS_Store
+*MacOSX
+*.settings/*
+
 .mtj.tmp/
 
-# Package Files #
 *.jar
 *.war
 *.ear
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
